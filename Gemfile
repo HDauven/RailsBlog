@@ -39,6 +39,10 @@ gem 'autoprefixer-rails'
 gem 'will_paginate', '~> 3.1'
 # Easy upload management for Active Record
 gem 'paperclip', '~> 4.3'
+# Font Awesome
+gem 'font-awesome-rails', '~> 4.6'
+# Simple WYSIWYG editor
+gem 'wysiwyg-rails', '~> 2.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

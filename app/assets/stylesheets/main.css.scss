@@ -24,7 +24,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #ff953f;
+  color: #ff953f !important;
 }
 
 .navbar a.navbar-brand:hover {
@@ -116,4 +116,14 @@ footer {
   height: 60px;
   padding-top: 20px;
   margin-top: 30px;
+}
+
+footer a, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: $secondary-color;
 }
