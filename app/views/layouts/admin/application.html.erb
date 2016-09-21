@@ -27,12 +27,9 @@
             <li><%= link_to_active "Categories", admin_categories_path %></li>
             <li><%= link_to_active "Users",      admin_users_path %></li>
           </ul>
-          <form class="search-form navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+
+          <%= render 'partials/admin/search' %>
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>

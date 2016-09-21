@@ -35,6 +35,8 @@ gem 'mail_form'
 gem 'simple_form'
 # CSS parser that adds vendor prefixes to CSS rules
 gem 'autoprefixer-rails'
+# Add pagination
+gem 'will_paginate', '~> 3.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
