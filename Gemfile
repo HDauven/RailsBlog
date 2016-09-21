@@ -37,6 +37,8 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 # Add pagination
 gem 'will_paginate', '~> 3.1'
+# Easy upload management for Active Record
+gem 'paperclip', '~> 4.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
