@@ -106,12 +106,21 @@ body {
   padding: 0;
 }
 
-.post small {
+small {
   background: $primary-color;
   color: #fff;
   display: block;
   margin: 10px 0;
   padding: 5px 10px;
+}
+
+.post .btn {
+  display: block;
+  margin-top: 20px;
+}
+
+.comments img {
+  width: 100%;
 }
 
 footer {
@@ -123,7 +132,7 @@ footer {
   margin-top: 30px;
 }
 
-footer a, a:visited {
+footer a, footer a:visited {
   text-decoration: none;
   color: white;
 }
