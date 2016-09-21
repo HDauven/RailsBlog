@@ -35,6 +35,11 @@ body {
   margin-top: 22px;
 }
 
+.navbar-brand span {
+  font-size: 16px;
+  color: $secondary-color;
+}
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: none;
   color: $secondary-color !important;
