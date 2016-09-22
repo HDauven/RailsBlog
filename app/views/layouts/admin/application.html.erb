@@ -47,6 +47,14 @@
             <% end %>
 
             <div class="well">
+              <div id="user_nav" class="pull-right">
+                <% if current_user %>
+                  Logged in as <%= current_user.email %>
+                  <%= link_to 'Log out', admin_logout_path %>
+                <% else %>
+                  <%= link_to 'Log in', admin_login_path %>
+                <% end %>
+              </div>
               <%= yield %>
             </div>
           </div>
