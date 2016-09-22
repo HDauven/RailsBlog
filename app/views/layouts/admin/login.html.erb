@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rails Blog - Admin Panel Login</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'admin/login', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'admin/application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'partials/admin/footer' %>
+  </body>
+</html>
